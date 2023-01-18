@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+#numberOfCountries,
+#numberOfSearchResults {
+  margin: 0.4rem;
+  color: #fff;
+}
+.header {
+  height: 40vh;
+  background-image: linear-gradient(
+      rgba(92, 92, 92, 0.45),
+      rgba(55, 250, 240, 0.45)
+    ),
+    url("./map.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+  width: 50%;
+}
+.buttonContainer button {
+  padding: 0.5rem 1rem;
+  margin: 0 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(10, 180, 158);
+  color: aliceblue;
+}
+input {
+  border: none;
+  padding: 1rem;
+  border-radius: 50px;
+  outline: none;
+  width: 50%;
+  box-shadow: inset 2px 2px 3px gray, inset -2px -2px 3px gray;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 15vh;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px gray;
+  background-image: linear-gradient(
+      rgba(92, 92, 92, 0.45),
+      rgba(55, 250, 240, 0.45)
+    ),
+    url("./map.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+#countryCardContainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
